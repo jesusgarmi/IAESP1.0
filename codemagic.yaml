@@ -1,7 +1,7 @@
 workflows:
   android-workflow:
     name: Android Workflow
-    instance_type: mac_mini
+    instance_type: linux  # Cambiado a 'linux' en lugar de 'mac_mini'
     environment:
       flutter: stable
     scripts:
